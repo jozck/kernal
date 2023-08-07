@@ -188,10 +188,10 @@ func (app *App) Launch(args []string) {
 		execute.Stderr = app.logfile
 	}
 
-	/*log.Info().Msgf("Exec %s %s", app.Process, strings.Join(jArgs, " "))
+	log.Info().Msgf("Exec %s %s", app.Process, strings.Join(jArgs, " "))
 	if err := execute.Run(); err != nil {
 		log.Fatal().Err(err).Msg("Command failed")
-	}*/
+	}
 }
 
 func (app *App) extendPlaceholders(value string) string {
