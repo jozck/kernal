@@ -13,7 +13,7 @@ import (
 	"github.com/jozck/kernal/pkg/log"
 	"github.com/jozck/kernal/pkg/utl"
 	"github.com/jozck/kernal/pkg/win"
-	"gopkg.in/yaml.v3"
+	_ "gopkg.in/yaml.v3"
 )
 
 // App represents an active app object
